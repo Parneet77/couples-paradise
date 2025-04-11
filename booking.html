@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Paradise Retreats</h1>
+            <p class="tagline">Escape Together</p>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="activities-desktop.html">Activities (Desktop)</a></li>
+                    <li><a href="booking.html">Book Now</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="grid-con">
+                <div class="col-span-1 grid-item">
+                    <h2>Book</h2>
+                </div>
+
+                <div class="col-span-3 grid-item">
+                    <h2>Your Escape</h2>
+                    <p>Begin your romantic journey</p>
+                </div>
+
+                <div class="col-span-2 grid-item">
+                    <form class="booking-form">
+                        <div class="form-group">
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-span-2 grid-item">
+                    <img src="images/booking.png" alt="Couple making a reservation" class="main-image">
+                    <div class="review">
+                        <p>"The booking process was effortless"</p>
+                        <p class="reviewer">- Recent Guests</p>
+                    </div>
+                </div>
+
+                <div class="col-span-2 grid-item">
+                    <form class="booking-form">
+                        <div class="form-group">
+                            <label for="arrival">Arrival:</label>
+                            <input type="date" id="arrival" name="arrival" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="departure">Departure:</label>
+                            <input type="date" id="departure" name="departure" required>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-span-2 grid-item">
+                    <form class="booking-form">
+                        <div class="form-group">
+                            <label for="room-type">Select Your Paradise:</label>
+                            <select id="room-type" name="room-type" required>
+                                <option value="">Choose accommodation</option>
+                                <option value="mountain">Mountain View Cabin ($199)</option>
+                                <option value="lakeside">Lakeside Suite ($249)</option>
+                                <option value="forest">Forest Retreat ($179)</option>
+                                <option value="honeymoon">Honeymoon Cottage ($299)</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-span-4 grid-item">
+                    <form class="booking-form">
+                        <div class="form-group">
+                            <label for="special-requests">Special Requests:</label>
+                            <textarea id="special-requests" name="special-requests"
+                                placeholder="Tell us how to make your stay magical..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label>
+                                <input type="checkbox" name="newsletter" checked>
+                                Keep me updated about special offers
+                            </label>
+                        </div>
+
+                        <button type="submit">Complete Reservation</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Contact us: 555-789-1234 | info@paradiseretreats.com</p>
+            <p>&copy; 2025 Paradise Retreats. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

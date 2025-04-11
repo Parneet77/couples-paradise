@@ -1,0 +1,50 @@
+.grid-con {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.col-span-1 {
+  grid-column: span 1;
+}
+
+.col-span-2 {
+  grid-column: span 2;
+}
+
+.col-span-3 {
+  grid-column: span 3;
+}
+
+.col-span-4 {
+  grid-column: span 4;
+}
+
+.desktop-grid {
+  grid-template-columns: repeat(12, 1fr);
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.col-span-6 {
+  grid-column: span 6;
+}
+
+.col-span-8 {
+  grid-column: span 8;
+}
+
+.col-span-9 {
+  grid-column: span 9;
+}
+
+.col-span-12 {
+  grid-column: span 12;
+}
+
+.grid-con .grid-con {
+  padding: 0;
+  margin: 20px 0;
+}
